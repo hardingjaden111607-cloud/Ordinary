@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  
+  <style>
+  
+    @import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Jersey+10&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Bitcount+Single:wght@100..900&family=Jersey+10&display=swap');
+  body {
+   
+    animation: changeColor 10s infinite;
+}
+
+.heading{
+  text-align: center;
+  background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(0, 255, 251));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.welcome {
+  text-align: center;
+  background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes changeColor {
+    0% { background-color: rgb(78, 68, 68); }
+    33% { background-color: rgb(50, 48, 48); }
+    66% { background-color: rgb(29, 39, 44); }
+    77% { background-color: rgb(147, 149, 148); }
+    100% { background-color: rgb(4, 45, 28); }
+}
+
+
+
+
+
+.wild {
+  text-align: center;
+  background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(0, 128, 128));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+ 
+}
+.Box {
+  position: fixed;
+  position: absolute;
+  bottom: 1;
+  width: 100px;
+  height: 100px;
+bottom: 350px;
+left: 780px;
+  background-color: rgb(48, 10, 10);
+  margin-top: 24px; 
+  border: 2px solid hsl(87, 73%, 19%);
+  box-shadow: 0 0 10px pink;
+}
+.kirbey {
+   position: absolute;
+  z-index: 10; 
+  width: 100px; 
+  height: 100px;
+  
+}
+.kirbey:hover {
+  cursor: url('come.png') 16 16, pointer;
+}
+
+
+.intro {
+  position: absolute;
+left: 785px;
+bottom: 450px;
+ 
+   background-image: linear-gradient(to left, rgb(255, 186, 186), rgb(227, 219, 219));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+   
+  
+
+}
+.text-to-show {
+    display: none;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+     background-image: linear-gradient(to left, rgb(255, 186, 186), rgb(227, 219, 219));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+input:checked + .text-to-show {
+  display: block;
+}
+.grey {
+  filter: grayscale(100%);
+width: 140px;
+position: absolute;
+  z-index: 10; 
+  
+  }
+  .grey:hover {
+    cursor: url('port.png') 16 16, pointer;
+
+  }
+.ord {
+  position: fixed;
+  position: absolute;
+  bottom: 1;
+  width: 100px;
+  height: 100px;
+bottom: 350px;
+left: 640px;
+  background-color: rgb(58, 56, 56);
+  margin-top: 24px; 
+  border: 2px solid hsl(87, 73%, 19%);
+  box-shadow: 0 0 10px rgba(154, 140, 140, 0.5);
+}
+input:checked + .Crazy-text {
+  display: block;
+}
+
+.Crazy-text {
+    display: none;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+     background-image: linear-gradient(to left, rgb(0, 42, 255), rgb(96, 96, 96));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.head {
+  position: fixed;
+  top: 0;
+  background-color: white;
+   padding: 10px;
+  z-index: 1000;
+  border-radius: 10px;
+  width: fit-content;
+font-family: 'New Jersey 10', cursive;
+}
+.yellow2 {
+  position: fixed;
+  position: absolute;
+  bottom: 1;
+  width: 100px;
+  height: 100px;
+top: 1227px;
+left: 300px;
+  background-color: rgb(255, 251, 0);
+  margin-top: 24px; 
+  border: 2px solid hsl(0, 0%, 100%);
+  box-shadow: 0 0 10px rgba(255, 238, 0, 0.5);
+}
+.yellow{
+   width: 140px;
+position: absolute;
+  z-index: 10; 
+  cursor: pointer;
+}
+.yellow:hover {
+  cursor: url('yellowreact.png') 16 16, pointer;
+}
+.MRA {
+  display: none;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+     background-image: linear-gradient(to left, rgb(234, 255, 0), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+input:checked + .MRA {
+  display: block;
+}
+.sonic {
+  position: fixed;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+top: 1100px;
+left: 730px;
+ background: linear-gradient(to right, blue, teal);
+  margin-top: 24px; 
+  border: 2px solid hsl(0, 0%, 100%);
+  box-shadow: 0 0 10px rgba(34, 0, 255, 0.5);
+  
+}
+
+.bluey {
+    width: 100px;
+   height: 100px;
+position: absolute;
+  top: 4px;
+  z-index: 10;
+  bottom: 1;
+  left: 5px;
+  cursor: pointer;
+
+}
+.bluey:hover {
+  cursor: url('bluereact.png') 16 16, pointer;
+}
+.blue-text {
+  display: none;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+     background-image: linear-gradient(to left, rgb(0, 38, 255), rgb(0, 221, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+input:checked + .blue-text {
+  display: block;
+}
+.Funny {
+  width: 120px;
+  position: absolute;
+  z-index: 10;
+  bottom: 1;
+  left: 5px;
+}
+.Funny:hover {
+cursor: url('funnyreact.png') 16 16, pointer;
+}
+
+.tails {
+  position: fixed;
+  position: absolute;
+ 
+  width: 100px;
+  height: 100px;
+top: 1500px;
+left: 345px;
+  background-color: rgb(111, 130, 196);
+  margin-top: 24px; 
+  border: 2px solid hsl(0, 0%, 100%);
+  box-shadow: 0 0 10px rgba(0, 12, 119, 0.5);
+  cursor: pointer;
+}
+input:checked + .funny-text {
+  display: block;
+}
+.funny-text {
+  display: none;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+     background-image: linear-gradient(to left, rgb(240, 213, 5), rgb(41, 166, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.anxity {
+  width: 120px;
+  position: absolute;
+  bottom: 1;
+  left: 1px;
+  z-index: 10;
+}
+.knuckles {
+ position: fixed;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+top: 1250px;
+left: 1000px;
+margin-top: 24px;
+ background: linear-gradient(to right, rgb(255, 0, 0), rgb(128, 0, 0));
+  margin-top: 24px; 
+  border: 2px solid hsl(0, 100%, 48%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor:pointer;
+}
+.anxity-text {
+  display: none;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+     background-image: linear-gradient(to left, rgb(255, 2, 2), rgb(157, 12, 12));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+input:checked + .anxity-text {
+  display: block;
+}
+.anxity:hover {
+  cursor: url('anxityr.png') 16 16, pointer;
+}
+.reddy {
+  width: 100px;
+  position: absolute;
+  bottom: 1;
+  left: 5px;
+  z-index: 10;
+}
+.Amy {
+  position: fixed;
+  position: absolute;
+  top: 1500px;
+  width: 100px;
+  height: 100px;
+left: 900px;
+background-image: linear-gradient(to right, red, rgb(70, 11, 11));
+margin-top: 24px;
+border: 2px solid hsl(0, 100%, 67%);
+box-shadow: 0 0 20px rgba(153, 105, 105, 0.5);
+cursor: pointer;
+}
+.amy-text {
+  display: none;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right, red, rgb(186, 215, 245)); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+input:checked + .amy-text {
+    display: block;
+}
+.reddy:hover {
+  cursor: url('reddyreact.png') 16 16, pointer;
+}
+.Contest {
+  width: 120px;
+  position: absolute;
+  position: center;
+  bottom: 350px;
+  left: 700px;
+  top: 150px;
+ 
+}
+.Hm {
+  width: 500px;
+  position: absolute;
+  top: 900px;
+  left: 500px;
+
+}
+  </style>
+<img src="Host.gif" class="Contest">
+<img src="Contest.gif" class="Hm">
+  <label for="inboxcheck">
+  <div class="head"> Credits  </div>
+  
+  
+  
+
+  <h1 class="welcome"> Welcome to MY WORLD </h1>
+  <h1 class="wild"> The Ordinary </h1>
+
+
+
+  <label for="toggle1"> 
+<div class="Box">    
+  <img src="Kirbey.png" id="kirbey"  class="kirbey">  
+  <audio src="Like.mp3" id="kirb"> </audio>
+  <input type="checkbox" id="toggle1" hidden />
+
+
+<span class="text-to-show"> 
+  A nice and honest host who does everything in his power to fix the world its self, despite the random apporach he always makes a smile on others!. despite his, horrible backstory.
+</span>  
+</label>
+</div>
+
+
+<h1 class = "intro"> kirbey </h1>
+
+ <script src="script.js"></script>
+
+
+ <label for="toggle2">
+  <div class="ord">
+    <img src="Ordin.png" class="grey" id="ordin">
+    <audio src="audio2.mp3" id="audio2"> </audio>
+    <input type="checkbox" id="toggle2" hidden>
+
+    <span class="Crazy-text" id="Animationplaceholder">
+     a Wild Yet Nice host who does his best to host his game, his anger issues are a bit of a problem but he makes sure everyone gets a fair share of his niceness!
+    </span>
+  </div>
+</label>
+
+
+<label for = "toggle3">
+  <div class="yellow2">
+    <img src="yellow.png" class="yellow" id="yellow">
+    <input type="checkbox" id="toggle3" hidden>
+    <span class="MRA"> I'm yellow aka a nice person!</span>
+    </div>
+  </label>
+
+  <label for = "toggle4">
+<div class="sonic">
+  <input type="checkbox" id="toggle4" hidden>
+  <span class = "blue-text"> I have a theory to rebel...</span>
+<img src="newblue.png" class="bluey"  id="blue">
+</div>
+</label>
+
+
+<label for = "toggle5">
+  <div class="tails">
+    <img src="Funny.png" class="Funny">
+    <input type="checkbox" id="toggle5" hidden>
+    <span class="funny-text"> HELLO!, i'm so happy wow a big world of something so big and goofy omg this is nice and honestly the greatest thing to exist i never had a problem with anyone else OMG CAN U SEE THE WAY SEE EVERYTHING $*#&$*#HE*$&#E#*&$L@#*$P M#*$&#@E#*&$</span>
+  </div>
+</label>
+<label for ="toggle6">
+  <div class ="knuckles">
+  <img src="anxity.png" class="anxity">
+  <input type="checkbox" id="toggle6" hidden>
+  <span class="anxity-text"> !$couldn't load text $%_--_--_--_--w-e-a-r-e-t-r-a-p-i-$n-t$-h%-i*-s8-W*-O#-r^-L*-D*. </span>
+  </div>
+</label>
+<label for ="toggle7">
+  <div class="Amy">
+    <img src="reddy.png" class="reddy">
+    <input type="checkbox" id="toggle7" hidden>
+    <span class = "amy-text"> despite him having a twisted mind, he's actually the most normal one around here shockingly....</span>
+
+</body>
+</html>
