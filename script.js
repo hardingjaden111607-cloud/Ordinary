@@ -1,25 +1,31 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const kirbeyImage = document.getElementById("kirbey");
+  const kirbeySound = document.getElementById("kirb");
 
-const image = document.getElementById('kirbey');
-const sound = document.getElementById('kirb');
-image.addEventListener("mouseenter", () => {
-    sound.play()
-});
-image.addEventListener("mouseleave", () => {
-    sound.pause();
-    sound.currentTime = 0; 
-  });
+  if (kirbeyImage && kirbeySound) {
+    kirbeyImage.addEventListener("mouseenter", () => {
+      kirbeySound.currentTime = 0;
+      kirbeySound.play();
+    });
 
-  document.addEventListener("DOMContentLoaded", () => {
-  const image2 = document.getElementById('ordin');
-  const sound2 = document.getElementById('audio2');
+    kirbeyImage.addEventListener("mouseleave", () => {
+      kirbeySound.pause();
+      kirbeySound.currentTime = 0;
+    });
+  }
 
-  image2.addEventListener("mouseenter", () => {
-    sound2.currentTime = 0;
-    sound2.play();
-  });
+  const ordinImage = document.getElementById("ordin");
+  const ordinSound = document.getElementById("audio2");
 
-  image2.addEventListener("mouseleave", () => {
-    sound2.pause();
-    sound2.currentTime = 0;
-  });
+  if (ordinImage && ordinSound) {
+    ordinImage.addEventListener("mouseenter", () => {
+      ordinSound.currentTime = 0;
+      ordinSound.play();
+    });
+
+    ordinImage.addEventListener("mouseleave", () => {
+      ordinSound.pause();
+      ordinSound.currentTime = 0;
+    });
+  }
 });
